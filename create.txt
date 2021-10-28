@@ -1,0 +1,14 @@
+CREATE TABLE myClasses
+(
+  Class_ID      char(20)     NOT NULL ,
+  Class_name    char(50) NOT NULL ,
+  Class_Description text NULL ,
+  semester_Taken    Date NULL ,
+  professor_Name   char(75)  NULL ,
+  final_Grade     int NULL ,
+  project_PDF char(50) NULL ,
+  PRIMARY KEY (Class_ID))
+
+
+INSERT INTO myClasses(Class_ID, Class_name, Class_Description, semester_Taken, professor_Name, final_Grade, project_PDF)
+VALUES('BCIS 4680', 'Business Data Communications and Networking', "Development of an understanding of 21st-century data communications and networking technologies; solid conceptual and practical understanding of how current network technologies operate and their relationships with the business enterprise; background for analysis, design, selection and evaluation of hardware, software and support required for a data communications and networking environment.", '2015-05-13', 'Cengiz Capan', 3 , 'JonathanPerry-NetworkProject.pdf');

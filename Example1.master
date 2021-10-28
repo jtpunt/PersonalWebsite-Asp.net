@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Example1.master.cs" Inherits="Example1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Master Page</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+    <link href="defaultStyle.css" rel="Stylesheet" type="text/css" />
+    <link href="fonts.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="header">
+            <div id="logo">    
+            </div>
+            <div id="menu">
+                <br />
+                <ul>
+                    <li class="active"><a href="Default.aspx" title="Home">Home</a></li>
+                    <li><a href="Resume.aspx" title="Resume">Resume</a></li>
+                    <!--<li><a href=" " title="Search Articles">Search Articles</a></li>
+                    <li><a href=" " title="Add New Article">Add New Article</a></li>
+                    <li><a href="Login.aspx" title="Login">Login</a></li>-->
+                    <li><a href="myClasses.aspx" title="My Classes">My Classes</a></li>
+                    <li><a href="About.aspx" title="About">About</a></li>
+                </ul>
+                <br />
+            </div>
+            <div id="banner" class="container">
+		<div class="title">
+			<h2>My Personal Website</h2>
+			<span class="byline">Feel free to look around</span>
+		</div>
+		
+	</div>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+    <div id="copyright" class="container">
+                <p>
+                    &copy; Jonathan. All rights reserved. | Photos by <a href="http://fotogrph.com/">Mom</a> | Design by <a href="http://templated.co" rel="nofollow">Jonathan</a>.</p>
+            </div>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://atlas.itds.unt.edu/daysuntil/daysuntil.asmx?wsdl" docRef="http://atlas.itds.unt.edu/daysuntil/daysuntil.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://atlas.itds.unt.edu/daysuntil/daysuntil.asmx" xmlns:q1="http://murach.com/" binding="q1:DaysUntilSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://atlas.itds.unt.edu/daysuntil/daysuntil.asmx" xmlns:q2="http://murach.com/" binding="q2:DaysUntilSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
